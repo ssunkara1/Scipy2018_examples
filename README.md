@@ -16,7 +16,7 @@ Purpose: Interacts with other widget libraries seamlessly and easy to link two b
 * Bayes Hack ipyleaflet - for showing interplay with other widgets - Shown before at Jupytercon presentation with Cheryl. Not at Scipy
 * Wealth of Nations - Shown before at Scipy
 * Correlation example - Shown before at Scipy but not with the vertical seelctor
-* <b>TODO: Add vertical brush selector as well
+* <b>TODO: Add vertical brush selector as well</b>
 ---
 
 Purpose: Easy to build useful and cool visualizations/animations
