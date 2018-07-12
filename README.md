@@ -5,9 +5,10 @@ Examples repo for bqplot talk at Scipy2018
 Purpose: Introduction and sneak peek into new features
 
 * Intro to bqplot - edit this to have the following new fatures
-    * Adding new selector features
-    * Adding new color scale features
-    * Image mark example - Add additional marks to image? Interactivity example?
+    * Adding new selector features - done
+    * Adding new color scale features - done
+    * Image mark example - done
+    * <b>TODO: Add interactivity to image mark example</b>
    
 ---
 
