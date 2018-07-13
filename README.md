@@ -1,28 +1,54 @@
-# Scipy2018_examples
-Examples repo for bqplot talk at Scipy2018
+# Scipy2018 bqplot
+Repo for bqplot talk at Scipy2018
 
----
-Purpose: Introduction and sneak peek into new features
+### Dependencies
 
-* Intro to bqplot - edit this to have the following new fatures
-    * Adding new selector features - done
-    * Adding new color scale features - not sure where exactly to add this
-    * Image mark example - done
-    * <b>TODO: Add interactivity to image mark example or add a more fun example. </b>
-   
----
+This package depends on the following packages:
 
-Purpose: Interacts with other widget libraries seamlessly and easy to link two bqplot widgets
-* Bayes Hack ipyleaflet - for showing interplay with other widgets - Shown before at Jupytercon presentation with Cheryl. Not at Scipy
-* Wealth of Nations - Shown before at Scipy
-* Correlation example - Shown before at Scipy but not with the vertical seelctor
-* <b>TODO: Add vertical brush selector for Correlation example ?? </b>
+- `ipywidgets` (version >= 7.0.0)
+- `bqplot` (version > 0.10.1)
+- `scikit-learn`
+- `numpy`
+- `pandas`
+- `mne`
+- `pythreejs`
+- `ipyleaflet`
 
----
 
-Purpose: Easy to build useful and cool visualizations/animations
-* Neural Net Visualization - Shown before at Scipy. Graph with tooltip is impressive. May be show this real quick?
-* Feature Visualization iris and digits - Completely new
-* K-means clustering visualization and animation - Completely new
-* Local regression - New but similar in spirit to demo by Chax and Romz at JupyterCon
-* Brain activity visualization - Romz and Chax at JupyterCon
+### Installation
+
+Using pip:
+
+```
+$ pip install bqplot
+$ jupyter nbextension enable --py --sys-prefix bqplot
+$ pip install pythreejs
+$ jupyter nbextension install --py --symlink --sys-prefix pythreejs
+$ jupyter nbextension enable --py --sys-prefix pythreejs
+$ pip install ipyleaflet
+$ jupyter nbextension enable --py --sys-prefix ipyleaflet  
+```
+
+Using conda
+
+```
+$ conda install -c conda-forge bqplot
+$ conda install -c conda-forge pythreejs
+conda install -c conda-forge ipyleaflet
+```
+
+For a development installation (requires npm (version >= 3.8) and node (version >= 4.0)):
+
+```
+$ git clone https://github.com/bloomberg/bqplot.git
+$ cd bqplot
+$ pip install -e .
+$ jupyter nbextension install --py --symlink --sys-prefix bqplot
+$ jupyter nbextension enable --py --sys-prefix bqplot
+```
+
+Note for developers: the `--symlink` argument on Linux or OS X allows one to
+modify the JavaScript code in-place. This feature is not available
+with Windows.
+
+### Questions
