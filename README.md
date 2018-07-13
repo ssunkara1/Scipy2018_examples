@@ -1,6 +1,8 @@
 # Scipy2018 bqplot
 Repo for bqplot talk at Scipy2018
 
+Try the repo on MyBinder: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ssunkara1/Scipy2018_examples/master)
+
 ### Dependencies
 
 This package depends on the following packages:
