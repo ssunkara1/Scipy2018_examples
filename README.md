@@ -6,13 +6,15 @@ Repo for bqplot talk at Scipy2018
 This package depends on the following packages:
 
 - `ipywidgets` (version >= 7.0.0)
-- `bqplot` (version > 0.10.1)
+- `bqplot` (version > 0.10.4)
 - `scikit-learn`
 - `numpy`
 - `pandas`
 - `mne`
 - `pythreejs`
 - `ipyleaflet`
+- `keras`
+- `tensorflow`
 
 
 ### Installation
@@ -34,7 +36,7 @@ Using conda
 ```
 $ conda install -c conda-forge bqplot
 $ conda install -c conda-forge pythreejs
-conda install -c conda-forge ipyleaflet
+$ conda install -c conda-forge ipyleaflet
 ```
 
 For a development installation (requires npm (version >= 3.8) and node (version >= 4.0)):
