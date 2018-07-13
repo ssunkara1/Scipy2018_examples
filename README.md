@@ -17,7 +17,7 @@ Purpose: Interacts with other widget libraries seamlessly and easy to link two b
 * Wealth of Nations - Shown before at Scipy
 * Correlation example - Shown before at Scipy but not with the vertical seelctor
 * <b>TODO: Add vertical brush selector for Correlation example ?? </b>
-* <b>TODO: Fix ix warnings in bayeshack demo</b>
+
 ---
 
 Purpose: Easy to build useful and cool visualizations/animations
@@ -26,4 +26,3 @@ Purpose: Easy to build useful and cool visualizations/animations
 * K-means clustering visualization and animation - Completely new
 * Local regression - New but similar in spirit to demo by Chax and Romz at JupyterCon
 * Brain activity visualization - Romz and Chax at JupyterCon
-* <b> TODO: Add click interaction for feature visualization bar chart</b>
