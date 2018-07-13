@@ -54,3 +54,7 @@ modify the JavaScript code in-place. This feature is not available
 with Windows.
 
 ### Questions
+Please reach out to us by raising issues on emailing Srinivas Sunkara at: ssunkara [at] tepper [dot] cmu [dot] edu
+
+<b>Credits</b> <br>
+Special thanks to @ccherukuri, @dmadeka, @rmenegaux, @scorlay, @sensiml for contriubting to the notebooks presented
