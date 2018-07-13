@@ -1,0 +1,10 @@
+numpy
+pandas
+ipywidgets
+bqplot
+ipyleaflet
+mne
+pythreejs
+tensorflow
+keras
+scikit-learn
